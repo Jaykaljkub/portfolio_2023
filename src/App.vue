@@ -5,7 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    
     <div class="wrapper">
       <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
       <nav>
@@ -16,7 +15,9 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </header>
   
-  <RouterView />
+  <div class="dashboard-wrapper">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>

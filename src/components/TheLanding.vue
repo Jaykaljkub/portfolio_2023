@@ -4,10 +4,18 @@ import DashboardBubble from './DashboardBubble.vue'
 
 <template>
     <div class="dashboard-container">
-        
+        <h1>
+            <slot name="bob">Dashboard thingy</slot>
+        </h1>
     </div>
 </template>
   
-<style>
-
+<style scoped>
+.dashboard-container {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.dashboard-container h1 {
+    color: #111;
+}
 </style>
